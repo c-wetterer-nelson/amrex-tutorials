@@ -12,10 +12,10 @@ set(CMAKE_CXX_STANDARD 14)
 enable_language(Fortran)
 
 #
-# enable building against an existing AMReX library. 
+# enable building against an existing AMReX library.
 # Default to downloading and rebuilding the library here
 #
-option(AMReX_USE_LOCAL_BUILD "Use an existing build of the AMReX library" ON)
+option(AMReX_USE_LOCAL_BUILD "Use an existing build of the AMReX library" OFF)
 
 if( NOT ${AMReX_USE_LOCAL_BUILD})
    #
