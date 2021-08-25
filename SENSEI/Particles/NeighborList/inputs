@@ -1,0 +1,24 @@
+
+size = (32, 32, 32)
+max_grid_size = 16
+nsteps = 2
+print_neighbor_list = false
+print_minimum_distance = false
+print_num_particles = false
+write_particles = false
+num_rebuild = 25
+cfl = 0.1
+num_ppc = 2
+
+# SENSEI in situ
+# enable and choose the configuration based on your build
+sensei.enabled = 1
+sensei.frequency = 1
+sensei.config = sensei/write_particles.xml
+#sensei.config = sensei/histogram_python.xml
+#sensei.config = sensei/render_iso_catalyst_2d.xml
+#sensei.config = sensei/render_iso_catalyst_3d.xml
+#sensei.config = sensei/render_iso_libsim_2d.xml
+#sensei.config = sensei/render_iso_libsim_3d.xml
+#sensei.config = sensei/write_vtk.xml
+#sensei.config = sensei/write_pvd_m.xml
